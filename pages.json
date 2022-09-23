@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "今天吃啥吖",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/food-list/food-list",
+			"style": {
+				"navigationBarTitleText": "我的食物",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/about-us/about-us",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/my_food/my_food",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true
+			}
+
+		}, {
+			"path": "pages/home/edit_food/edit_food",
+			"style": {
+				"navigationBarTitleText": "食物",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/create_food/create_food",
+			"style": {
+				"navigationBarTitleText": "创建食物",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "YOUNG",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#66d0ce",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"fontSize": "12px",
+		"spacing": "5px",
+		"height": "50px",
+		"list": [{
+			"pagePath": "pages/tabbar/index/index",
+			"iconPath": "static/tabbars/icon_home.png",
+			"selectedIconPath": "static/tabbars/icon_home_select.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabbar/mine/mine",
+			"iconPath": "static/tabbars/icon_mine.png",
+			"selectedIconPath": "static/tabbars/icon_mine_select.png",
+			"text": "我的"
+		}]
+	}
+}

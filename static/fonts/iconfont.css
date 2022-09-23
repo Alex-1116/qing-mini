@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2351611 */
+  src: url('https://at.alicdn.com/t/font_2351611_0ihkegva4iq6.eot');
+  src: url('https://at.alicdn.com/t/font_2351611_0ihkegva4iq6.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_2351611_0ihkegva4iq6.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_2351611_0ihkegva4iq6.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_2351611_0ihkegva4iq6.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_2351611_0ihkegva4iq6.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconweixin:before {
+  content: "\e63d";
+}
+
+.iconfanhui:before {
+  content: "\e604";
+}
+
+.iconshuaxin1:before {
+  content: "\e670";
+}
+
+.iconguanyu:before {
+  content: "\e656";
+}
+
+.iconic_item_food:before {
+  content: "\e61b";
+}
+
+.iconcha:before {
+  content: "\e638";
+}
+
+.iconiconjia:before {
+  content: "\e600";
+}
+
+.iconjinru1:before {
+  content: "\e658";
+}
+
